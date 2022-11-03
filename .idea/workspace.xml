@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71802406-db6a-463c-8919-7edb58488370" name="Changes" comment="" />
+    <list default="true" id="71802406-db6a-463c-8919-7edb58488370" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Aliens game/alien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aliens game/aliens_invasion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aliens game/bullet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aliens game/button.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aliens game/game_stats.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aliens game/scoreboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aliens game/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Aliens game/ship.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/Person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/Stars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/blue_sky.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework/game_character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bullet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bullet1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ship1sideways.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/alien_invasion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/ship.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/images/ship.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/ship.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2G2J2vX9FPk2mxBxRjCMy6RplTY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -32,7 +58,9 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/m252382/Desktop/EW200/Labs/Lab7__Game/alien_invasion&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/m252382/Desktop/EW200/Labs/Sean Alien/alien_invasion&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -56,5 +84,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/playground.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

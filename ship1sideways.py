@@ -13,23 +13,23 @@ class Ship:
         self.rect = self.image.get_rect()
 
         #start each new ship at the bottom center of the screen.
-        self.rect.midbottom = self.screen_rect.midbottom
+        self.rect.midleft = self.screen_rect.midleft
 
         #Store a decimal value for the ships x position
-        self.x = float(self.rect.x)
+        self.y = float(self.rect.y)
 
-        self.moving_right = False #movement flag
-        self.moving_left = False
+        self.moving_up = False #movement flag
+        self.moving_down = False
 
     def update(self):
         """Update position based on movement"""
         #update ship value not the rectangle
-        if self.moving_right and self.rect.right < self.screen_rect.right:
-            self.x += self.settings.ship_speed
-        if self.moving_left and self.rect.left > 0:
-            self.x -= self.settings.ship_speed
+        if self.moving_up and self.rect.top > 0:
+            self.y -= self.settings.ship_speed
+        if self.moving_down and self.rect.bottom < self.screen_rect.bottom:
+            self.y += self.settings.ship_speed
         #update the rect from self.x
-        self.rect.x = self.x
+        self.rect.y = self.y
     def blitme(self):
         """Draw the ship at its current location"""
         self.screen.blit(self.image, self.rect)
