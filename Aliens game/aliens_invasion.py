@@ -77,6 +77,8 @@ class AlienInvasion:
             self.stats.reset_stats()
             self.stats.game_active = True
             self.sb.prep_score()
+            self.sb.prep_level()
+            #self.sb.prep_ships()
             # Hide the mouse cursor
             pygame.mouse.set_visible(False)
 
@@ -119,6 +121,9 @@ class AlienInvasion:
             self._create_fleet()
             self.settings.increase_speed()
 
+            self.stats.level += 1
+            self.sb.prep_level()
+
         # Get rid of bullets that have disappeared
         for bullet in self.bullets.copy():
             if bullet.rect.bottom <= 0:
@@ -140,6 +145,7 @@ class AlienInvasion:
         if self.stats.ships_left > 0:
             # Decrement ships_left
             self.stats.ships_left -= 1
+            #self.sb.prep_ships()
 
             # Get rid of any remaining aliens and bullets
             self.aliens.empty()
