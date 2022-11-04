@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71802406-db6a-463c-8919-7edb58488370" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ch13 problems/game_stats.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aliens game/aliens_invasion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aliens game/aliens_invasion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aliens game/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aliens game/scoreboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aliens game/ship.py" beforeDir="false" afterPath="$PROJECT_DIR$/Aliens game/ship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alien.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bullet1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/star.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ship1sideways.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sideways shooter.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
